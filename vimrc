@@ -78,4 +78,47 @@ set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*
 
+" Statusline
+set statusline=%f\ %y%r%m
+set statusline+=%#error#
+set statusline+=%{StatuslineTrailingSpaceWarning()}
+set statusline+=%{GitEmailAlert()}
+set statusline+=%*
+set statusline+=%=%-19(%3l,%02c%03V%)
+
+set laststatus=2
+
+"return '[\s]' if trailing white space is detected
+"return '' otherwise
+function! StatuslineTrailingSpaceWarning()
+  if !exists("b:statusline_trailing_space_warning")
+
+    if !&modifiable
+      let b:statusline_trailing_space_warning = ''
+      return b:statusline_trailing_space_warning
+    endif
+
+    if search('\s\+$', 'nw') != 0
+      let b:statusline_trailing_space_warning = '[\s]'
+    else
+      let b:statusline_trailing_space_warning = ''
+    endif
+  endif
+  return b:statusline_trailing_space_warning
+endfunction
+
+" Alert if the local git email is not set
+function! GitEmailAlert()
+  if !exists("g:gitemail_alert")
+    let s:email = system("git config --local --get user.email")
+
+    if s:email == ''
+      let g:gitemail_alert = '[Configure git local email]'
+    else
+      let g:gitemail_alert = ''
+    endif
+  endif
+  return g:gitemail_alert
+endfunction
+
 source ~/.vim/bundles.vim
