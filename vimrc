@@ -59,3 +59,9 @@ endif
 
 " Disable autoindent when pasting
 set pastetoggle=<F2>
+
+" Clear the search buffer when hitting return
+function! MapCR()
+  nnoremap <cr> :nohlsearch<cr>
+endfunction
+call MapCR()
