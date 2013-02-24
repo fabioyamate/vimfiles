@@ -56,3 +56,6 @@ set hidden
 if has('mouse')
   set mouse=nv
 endif
+
+" Disable autoindent when pasting
+set pastetoggle=<F2>
