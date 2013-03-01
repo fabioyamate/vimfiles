@@ -75,6 +75,9 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 
+" Ignore temp and log files
+set wildignore+=*/tmp/*,*/log/*
+
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*
 
@@ -157,7 +160,7 @@ let g:vimclojure#ParenRainbow = 1
 " CtrlP
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+      \ 'dir':  '\v[\/]\.(git|hg|svn)$',
       \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
       \ }
 
