@@ -42,6 +42,12 @@ set expandtab
 set autoindent
 set copyindent
 
+" No arrow key allowed! (tries: 1)
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " rewriting <leader> key
 let mapleader=","
 
