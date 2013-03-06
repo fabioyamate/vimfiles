@@ -185,3 +185,10 @@ nnoremap ; :
 " splits made easy
 nnoremap <leader>v <C-w>v<C-w>l
 nnoremap <leader>s <C-w>s<C-w>j
+
+" BufExplorer
+let g:bufExplorerShowRelativePath=1
+let g:bufExplorerSortBy='name'
+let g:bufExplorerSplitOutPathName=1
+
+nmap <silent> <C-b> :BufExplorer<CR>
