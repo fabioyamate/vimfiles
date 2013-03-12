@@ -80,6 +80,9 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 
+" Ignore binstubs
+set wildignore+=*/b/*
+
 " Ignore temp and log files
 set wildignore+=*/tmp/*,*/log/*
 
