@@ -71,8 +71,12 @@ function! MapCR()
 endfunction
 call MapCR()
 
+" Better command-line completion
+set wildmode=list:longest
+set wildmenu
+
 " Disable output and VCS files
-set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
+set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem,*.pyc
 
 " Disable archive files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
@@ -87,7 +91,7 @@ set wildignore+=*/b/*
 set wildignore+=*/tmp/*,*/log/*
 
 " Disable temp and backup files
-set wildignore+=*.swp,*~,._*
+set wildignore+=*.bak,*.swp,*~,._*,#*#
 
 " Statusline
 set statusline=%f\ %y%r%m
