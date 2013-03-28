@@ -165,10 +165,6 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>"
 
-" VimClojure
-let g:vimclojure#HighlightBuiltins = 1
-let g:vimclojure#ParenRainbow = 1
-
 " CtrlP
 let g:ctrlp_show_hidden = 0
 let g:ctrlp_clear_cache_on_exit = 0
