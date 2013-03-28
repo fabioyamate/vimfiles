@@ -58,9 +58,9 @@ set listchars=tab:\ ¬,trail:.
 set hidden
 
 " Enabling mouse
-if has('mouse')
-  set mouse=nv
-endif
+" if has('mouse')
+"   set mouse=nv
+" endif
 
 " Disable autoindent when pasting
 set pastetoggle=<F2>
