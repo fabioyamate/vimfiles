@@ -103,6 +103,9 @@ set statusline+=%=%-19(%3l,%02c%03V%)
 
 set laststatus=2
 
+" register comments strategy
+autocmd FileType go set commentstring=\/\/\ %s
+
 "return '[\s]' if trailing white space is detected
 "return '' otherwise
 function! StatuslineTrailingSpaceWarning()
