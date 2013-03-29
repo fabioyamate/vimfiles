@@ -1,5 +1,18 @@
-Go
+# Vim Files
 
-Copied from $(brew --prefix go)/misc/vim.
+## Installing
 
-  cp -R $(brew --prefix go)/misc/vim bundle/go
+```console
+$ git submodule init
+$ git submodule update
+```
+
+## Maintaining
+
+### Go
+
+Copied from `$(brew --prefix go)/misc/vim`.
+
+```console
+$ cp -R $(brew --prefix go)/misc/vim bundle/go
+```
