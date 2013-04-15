@@ -105,6 +105,7 @@ set laststatus=2
 
 " register comments strategy
 autocmd FileType go set commentstring=\/\/\ %s
+autocmd FileType haskell setl ts=8 sw=8
 
 "return '[\s]' if trailing white space is detected
 "return '' otherwise
