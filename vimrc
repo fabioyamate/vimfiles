@@ -54,6 +54,10 @@ let mapleader=","
 set list
 set listchars=tab:\ ¬,trail:.
 
+" highlight whitespaces http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 " Buffer
 set hidden
 
