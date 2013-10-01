@@ -31,6 +31,12 @@ $ git submodule foreach git pull
 $ git add bundle/plugin1 bundle/plugin2 ... bundle/pluginN
 ```
 
+Or just run
+
+```console
+sh upgrade.sh
+```
+
 Note that when adding a new submodule you have to add without trailing slash.
 
 ### Removing
