@@ -41,6 +41,11 @@ set expandtab
 set autoindent
 set copyindent
 
+" Store temporary files in a central spot
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
 " No arrow key allowed! (tries: 1)
 noremap <Up> <NOP>
 noremap <Down> <NOP>
