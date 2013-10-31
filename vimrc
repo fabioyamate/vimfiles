@@ -4,7 +4,9 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax enable
-colorscheme ir_black
+" colorscheme ir_black
+" colorscheme zenburn
+colorscheme Tomorrow-Night-Eighties
 
 " Set vim-specifc functions available, breaking compatibility with vi
 set nocompatible
