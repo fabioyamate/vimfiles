@@ -42,6 +42,7 @@ set autoindent
 set copyindent
 
 " Store temporary files in a central spot
+set noswapfile
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
