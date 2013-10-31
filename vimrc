@@ -86,7 +86,10 @@ set wildmode=list:longest
 set wildmenu
 
 " Disable output and VCS files
-set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem,*.pyc
+set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem,*.pyc,*.luac
+
+" OSX
+set wildignore+=*.DS_Store
 
 " Disable archive files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
@@ -102,6 +105,12 @@ set wildignore+=*/tmp/*,*/log/*
 
 " Disable temp and backup files
 set wildignore+=*.bak,*.swp,*~,._*,#*#
+
+" Merge resolution files
+set wildignore+=*.orig
+
+" Clojure/Leiningen
+set wildignore+=classes,lib
 
 " Statusline
 set statusline=%f\ %y%r%m
