@@ -52,6 +52,10 @@ Extracted from: http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git
 
 ## Maintaining
 
+### Selecta
+
+Check out https://github.com/garybernhardt/selecta
+
 ### Go
 
 Copied from `$(brew --prefix go)/misc/vim`.
