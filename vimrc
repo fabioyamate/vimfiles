@@ -21,6 +21,10 @@ set backspace=indent,eol,start
 set number
 set colorcolumn=100
 set cursorline
+set ruler
+
+" minimal number of lines to always show above/below the caret
+set scrolloff=3
 
 " Syntax highlighting options
 syntax on
@@ -29,6 +33,8 @@ set t_Co=256
 " Search Options
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase " case sensitive on capital letter presence
 
 " Line Wrapping options
 set nowrap
@@ -60,7 +66,7 @@ let mapleader=","
 
 " Display tabs and trailing spaces
 set list
-set listchars=tab:\ ¬,trail:.
+set listchars=tab:\ ¬,trail:·
 
 " highlight whitespaces http://vim.wikia.com/wiki/Highlight_unwanted_spaces
 highlight ExtraWhitespace ctermbg=red guibg=red
