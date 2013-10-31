@@ -37,3 +37,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
+[submodule "bundle/numbers"]
+	path = bundle/numbers
+	url = git@github.com:myusuf3/numbers.vim.git
