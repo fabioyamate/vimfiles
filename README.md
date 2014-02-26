@@ -61,5 +61,6 @@ Check out https://github.com/garybernhardt/selecta
 Copied from `$(brew --prefix go)/misc/vim`.
 
 ```console
-$ cp -R $(brew --prefix go)/misc/vim/ bundle/go
+$ rm -rf bundle/go
+$ cp -R $(brew --prefix go)/libexec/misc/vim/ bundle/go
 ```
