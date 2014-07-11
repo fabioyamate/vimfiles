@@ -41,11 +41,11 @@ Note that when adding a new submodule you have to add without trailing slash.
 
 ### Removing
 
-1. Delete the relevant section from the `.gitmodules` file.
-2. Delete the relevant section from `.git/config`.
-3. Run `git rm --cached path_to_submodule` (no trailing slash).
+1. Run `git rm --cached path_to_submodule` (no trailing slash).
+2. Delete the relevant section from the `.gitmodules` file.
+3. Delete the relevant section from `.git/config`.
 4. Commit
-5. Delete the now untracked submodule files
+5. Delete the untracked submodule files
 6. `rm -rf path_to_submodule`
 
 Extracted from: http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule
