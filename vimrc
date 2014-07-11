@@ -255,14 +255,6 @@ function! RunTests(filename)
     end
 endfunction
 
-" CtrlP
-let g:ctrlp_show_hidden = 0
-let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-      \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
-      \ }
-
 " Tabularize shortcuts
 nmap <Leader>th :Tabularize /=><CR>
 vmap <Leader>th :Tabularize /=><CR>
