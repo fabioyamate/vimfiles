@@ -37,3 +37,6 @@
 [submodule "bundle/numbers"]
 	path = bundle/numbers
 	url = git@github.com:myusuf3/numbers.vim.git
+[submodule "bundle/vim-clojure-highlight"]
+	path = bundle/vim-clojure-highlight
+	url = git@github.com:guns/vim-clojure-highlight.git
