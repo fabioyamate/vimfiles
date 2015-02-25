@@ -43,3 +43,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/paredit"]
+	path = bundle/paredit
+	url = git@github.com:vim-scripts/paredit.vim.git
