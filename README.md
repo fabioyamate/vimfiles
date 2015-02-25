@@ -19,7 +19,7 @@ $ git submodule update
 ```console
 $ git submodule add <remote_repo> bundle/<plugin_name>
 $ git add bundle/<plugin_name>
-$ git commit -m "Adding <plugin_name> plugin"
+$ git commit -m "Add <plugin_name> plugin"
 ```
 
 Note that when adding a new submodule you have to add without trailing slash.
