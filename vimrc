@@ -124,7 +124,7 @@ set wildignore+=classes,lib
 set statusline=%f\ %y%r%m
 set statusline+=%#error#
 set statusline+=%{StatuslineTrailingSpaceWarning()}
-set statusline+=%{GitEmailAlert()}
+" set statusline+=%{GitEmailAlert()}
 set statusline+=%*
 set statusline+=%=%-19(%3l,%02c%03V%)
 
