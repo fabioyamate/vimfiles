@@ -43,3 +43,6 @@
 [submodule "bundle/paredit"]
 	path = bundle/paredit
 	url = git@github.com:vim-scripts/paredit.vim.git
+[submodule "bundle/elm-vim"]
+	path = bundle/elm-vim
+	url = https://github.com/ElmCast/elm-vim
