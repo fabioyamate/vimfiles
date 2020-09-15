@@ -134,6 +134,7 @@ set laststatus=2
 autocmd FileType go set commentstring=\/\/\ %s
 autocmd FileType haskell setl ts=8 sw=8
 autocmd BufNewFile,BufRead *.less set filetype=css
+au BufRead,BufNewFile *.md setlocal wrap linebreak columns=120
 
 "return '[\s]' if trailing white space is detected
 "return '' otherwise
