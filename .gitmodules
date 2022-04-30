@@ -1,33 +1,33 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
-	url = git://github.com/vim-scripts/matchit.zip.git
+	url = https://github.com/vim-scripts/matchit.zip.git
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
-	url = git://github.com/elixir-lang/vim-elixir.git
+	url = https://github.com/elixir-lang/vim-elixir.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = git://github.com/vim-scripts/bufexplorer.zip.git
+	url = https://github.com/vim-scripts/bufexplorer.zip.git
 [submodule "bundle/eunuch"]
 	path = bundle/eunuch
-	url = git://github.com/tpope/vim-eunuch.git
+	url = https://github.com/tpope/vim-eunuch.git
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
-	url = git://github.com/tpope/vim-fireplace.git
+	url = https://github.com/tpope/vim-fireplace.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
-	url = git://github.com/guns/vim-clojure-static.git
+	url = https://github.com/guns/vim-clojure-static.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
